@@ -11,7 +11,12 @@ const forecast=(latitude, longitude, callback)=>{
 
         }
         else {
-            callback(undefined, body.current.weather);
+            callback(undefined, {
+                temp: body.current.temp,
+                description: body.current.weather[0].description,
+                icon: body.current.weather[0].icon
+
+            });
         }
     })
 };
