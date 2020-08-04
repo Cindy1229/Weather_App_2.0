@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const hbs = require('hbs');
 
+const port=process.env.PORT || 3000;
+
 //Export functions
 const geoCode=require('./utils/geocode.js');
 const forecast=require('./utils/forecast.js');
@@ -90,6 +92,6 @@ app.get('*', (req, res) => {
 })
 
 //satrt up the server
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('server is up on port 3000');
 })
