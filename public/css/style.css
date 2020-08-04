@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f3f4f8;
+    color:	#bddaf0;
+    font-family: arial;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+i {
+    display: inline;
+}
+header h1 {
+    display: inline;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: 	#bbbbbb;
+    margin-right: 20px;
+}
+.portrait {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.main-content {
+    flex-grow: 1;
+}
+
+input {
+    border: 1px solid #2684b2;
+    padding: 8px;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+footer {
+    padding: 10px;
+    border-top: 1px solid #2684b2;
+    
+}
