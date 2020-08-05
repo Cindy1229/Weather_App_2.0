@@ -1,8 +1,9 @@
 
 body {
-    background-color: #f3f4f8;
-    color:	#bddaf0;
-    font-family: arial;
+    background-color: #e5e5e5;
+    color:	#303960;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 300;
     width: 80vw;
     height: 100vh;
     margin: 0 auto;
@@ -20,10 +21,13 @@ header h1 {
 header {
     margin-top: 30px;
 }
+.links {
+    margin-top: 30px;
+}
 
 header a {
     text-decoration: none;
-    color: 	#bbbbbb;
+    color: 	#ea9a96;
     margin-right: 20px;
 }
 .portrait {
@@ -36,23 +40,32 @@ header a {
 }
 
 #weather-info {
-    height: 500px;
-    background-color: white;
+    height: 300px;
     margin-top: 10px;
+    padding-left: 20px;
+    color:#f8b24f;
+}
+#location {
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+#temperature {
+    font-size: 25px;
+    
 }
 
-#weather-icon {
-
-}
 
 input {
-    border: 1px solid #2684b2;
+    border: none;
+    font-family: 'Fredoka One', cursive;
     padding: 8px;
     border-radius: 3px;
     outline: none;
 }
 
 button {
+    font-family: 'Fredoka One', cursive;
     cursor: pointer;
     margin-left: 10px;
     padding: 8px;
@@ -63,6 +76,6 @@ button {
 
 footer {
     padding: 10px;
-    border-top: 1px solid #2684b2;
+    border-top: 1px solid #303960;
     
 }

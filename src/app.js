@@ -40,7 +40,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'Send me an email to conatct me!!',
+        helpText: 'Be sure to enable geolocation in your browser to get current location weather info!!',
         title: 'Help Page',
         name: 'Cindy'
     })

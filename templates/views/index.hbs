@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/cloud-icon.png">
+    {{>font}}
     <link rel="stylesheet" href="css/style.css">
 
     <title>Weather App</title>
@@ -13,9 +14,9 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <p>Enter a location to get the latest weather info!!</p>
+        <p>Enter a city to get the latest weather info!!</p>
         <form>
-            <input type="text" placeholder="Input your address">
+            <input type="text" placeholder="Input a city name">
             <button>Search</button>
         </form>
 
