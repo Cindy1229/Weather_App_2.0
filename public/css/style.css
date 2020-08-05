@@ -35,6 +35,16 @@ header a {
     flex-grow: 1;
 }
 
+#weather-info {
+    height: 500px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#weather-icon {
+
+}
+
 input {
     border: 1px solid #2684b2;
     padding: 8px;
